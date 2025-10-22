@@ -1,0 +1,6 @@
+{
+  "Name": "SmartMusicFinder",
+  "ProjectType": "Process",
+  "Description": "SmartMusicFinder",
+  "MainFile": "Main.xaml"
+}
