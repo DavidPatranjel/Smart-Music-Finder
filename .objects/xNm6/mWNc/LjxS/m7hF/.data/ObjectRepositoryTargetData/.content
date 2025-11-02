@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QCv5wMPZTUefHJJnsmTlmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro" CVScreenId="8678fb41-f64d-4c8c-83d4-694f50176dc2" CvTextArea="112, 235, 216, 38" CvTextArgument="MuZIKER" CvType="Text" DesignTimeRectangle="116, 237, 210, 35" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Logo muziker' tag='IMG' /&gt;" Guid="dc5f33e2-2bde-4c97-8d71-eb41e60f33f7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="14f4bd0d54c47bef65135a130482a261.png" xmlns="">0OJuonGbKK0-Rx0qIdqQ6mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

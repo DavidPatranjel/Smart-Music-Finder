@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Muziker - Un milion de bucurii - Google Chrome",
+  "Type": "App",
+  "Id": "BiXSr7EyF0ag4kemO1gCuw",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/BiXSr7EyF0ag4kemO1gCuw",
+  "Created": "2025-11-02T12:00:25.4383253Z",
+  "Updated": "2025-11-02T12:00:25.4383253Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

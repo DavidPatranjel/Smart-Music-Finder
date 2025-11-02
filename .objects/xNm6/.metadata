@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Muziker - Un milion de bucurii",
+  "Type": "App",
+  "Id": "xNm6QTkC4Eqn-mAD0vfUqw",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/xNm6QTkC4Eqn-mAD0vfUqw",
+  "Created": "2025-11-02T12:18:49.29991Z",
+  "Updated": "2025-11-02T12:18:49.29991Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

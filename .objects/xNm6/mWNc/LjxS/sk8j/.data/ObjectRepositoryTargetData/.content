@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_r8K3aofyEOKidsNyW3ScA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro" CVScreenId="37dc15d1-739b-4d52-b96f-b1e4a20caa7f" CvElementArea="635, 642, 670, 63" CvType="InputBox" DesignTimeRectangle="662, 656, 130, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Română' aria-role='textbox' tag='SPAN' type='' class='select2-selection__rendered' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Română' /&gt;" Guid="b326960f-da69-4348-8f80-c7ff16b1826b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="37dc15d1-739b-4d52-b96f-b1e4a20caa7f" CvTextArea="634, 614, 162, 22" CvTextArgument="Selectați limba: *" CvType="Text" DesignTimeRectangle="636, 610, 159, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Selectați limba:' parentid='new_public_country_selector_form' tag='LABEL' type='' class='required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Selectați limba:' /&gt;" Guid="5535bb4b-2739-41dc-bea8-6ee000825181" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="23e8c54af665c7cb6a1e7f0e47efcbb2.png" xmlns="">0xyogojWiGUqN6zquCwLMOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

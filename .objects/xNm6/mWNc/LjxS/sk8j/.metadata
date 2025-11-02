@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Română",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "sk8jydk9ZEKoTT-tKDGGHg",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/sk8jydk9ZEKoTT-tKDGGHg",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/LjxSOq3Y4UyvFin_BoA-ow",
+  "Created": "2025-11-02T12:24:58.9571433Z",
+  "Updated": "2025-11-02T12:24:58.9571433Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

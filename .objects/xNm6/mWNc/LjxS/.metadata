@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Muziker - Un milion de bucurii",
+  "Type": "Screen",
+  "Id": "LjxSOq3Y4UyvFin_BoA-ow",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/LjxSOq3Y4UyvFin_BoA-ow",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/mWNcvpk4NkWAUq3YVULmbQ",
+  "Created": "2025-11-02T12:18:49.4010998Z",
+  "Updated": "2025-11-02T12:18:49.4010998Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

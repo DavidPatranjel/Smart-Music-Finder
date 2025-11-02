@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OdQauWN4C0eFKlwoWfQtYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro" CVScreenId="be590462-17a0-4e1d-9cc0-c3605838af0f" CvElementArea="1222, 760, 87, 59" CvTextArea="1250, 779, 30, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1226, 763, 80, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='new_public_country_selector_form' tag='INPUT' type='submit' /&gt;" Guid="6778d128-5922-463e-82f3-b50f70271921" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="99ce64f3587b64ea2bee34a37d886cac.png" xmlns="">0NpcLE9NaykC7Pffc-3QFgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="c_2QjRlcP0izlm_H7wGhZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro" CVScreenId="e1b168c1-3521-4165-bec3-0f83b6944464" CvElementArea="780, 703, 359, 57" CvTextArea="892, 721, 135, 17" CvTextArgument="Sunt de acord" CvType="Button" DesignTimeRectangle="786, 705, 350, 53" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Sunt de acord ' parentid='cookies-modal' tag='DIV' /&gt;" Guid="7b3c1b15-a54b-4e9d-a122-54f316586fd3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="933209fbcbc3451b91774e8fbb3d2a11.png" xmlns="">0MhlW1fmeS0eSjgDkr0MDmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

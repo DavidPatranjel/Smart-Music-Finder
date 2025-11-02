@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Muziker - Un milion de bucurii - Googl",
+  "Type": "Screen",
+  "Id": "c448p1YgW0-S-bSP7wupcg",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/c448p1YgW0-S-bSP7wupcg",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/8flECGi5N0ivyc3582KYyw",
+  "Created": "2025-11-02T12:00:25.4884287Z",
+  "Updated": "2025-11-02T12:00:25.4884287Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
