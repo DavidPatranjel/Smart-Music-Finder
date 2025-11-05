@@ -1,7 +1,7 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="LoadData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="tableData" Type="OutArgument(sd:DataTable)" />
-    <x:Property Name="dataPath" Type="InArgument(x:String)">
+    <x:Property Name="out_dtTableData" Type="OutArgument(sd:DataTable)" />
+    <x:Property Name="in_strDataPath" Type="InArgument(x:String)">
       <x:Property.Attributes>
         <RequiredArgumentAttribute />
       </x:Property.Attributes>
@@ -113,28 +113,28 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="LoadData" sap:VirtualizedContainerService.HintSize="520,1996.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="LoadData" sap:VirtualizedContainerService.HintSize="798.8000000000001,2144.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="sd:DataTable" Name="tempTable" />
-      <Variable x:TypeArguments="s:String[]" Name="excelFiles" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dtTempTable" />
+      <Variable x:TypeArguments="s:String[]" Name="arrStrExcelFiles" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="520,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;In load data&quot;]" />
-    <Assign sap:VirtualizedContainerService.HintSize="520,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <ui:LogMessage DisplayName="Log Message_In LoadData" sap:VirtualizedContainerService.HintSize="520,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;In load data&quot;]" />
+    <Assign DisplayName="Assign_Get Excel Files" sap:VirtualizedContainerService.HintSize="520,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
-        <OutArgument x:TypeArguments="s:String[]">[excelFiles]</OutArgument>
+        <OutArgument x:TypeArguments="s:String[]">[arrStrExcelFiles]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(dataPath, "*.xlsx").Concat(Directory.GetFiles(dataPath, "*.xls")).ToArray()]</InArgument>
+        <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(in_strDataPath, "*.xlsx").Concat(Directory.GetFiles(in_strDataPath, "*.xls")).ToArray()]</InArgument>
       </Assign.Value>
     </Assign>
-    <If Condition="[tableData is Nothing]" sap:VirtualizedContainerService.HintSize="520,453.6" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[out_dtTableData is Nothing]" DisplayName="If_TableData is Nothing" sap:VirtualizedContainerService.HintSize="520,453.6" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Then_Initialise TableData" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -142,7 +142,7 @@
           </sap:WorkflowViewStateService.ViewState>
           <Assign sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_2">
             <Assign.To>
-              <OutArgument x:TypeArguments="sd:DataTable">[tableData]</OutArgument>
+              <OutArgument x:TypeArguments="sd:DataTable">[out_dtTableData]</OutArgument>
             </Assign.To>
             <Assign.Value>
               <InArgument x:TypeArguments="sd:DataTable">[New DataTable()]</InArgument>
@@ -151,7 +151,7 @@
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="Else_Nothing" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -160,7 +160,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each filePath" sap:VirtualizedContainerService.HintSize="520,1005.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[excelFiles]">
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each_ExcelFile" sap:VirtualizedContainerService.HintSize="520,1005.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[arrStrExcelFiles]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>
@@ -178,27 +178,27 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[tempTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="451.2,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="[filePath]" />
-              <If Condition="[tableData.Columns.Count = 0]" sap:VirtualizedContainerService.HintSize="451.2,453.6" sap2010:WorkflowViewState.IdRef="If_3">
+              <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtTempTable]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="451.2,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="[filePath]" />
+              <If Condition="[out_dtTableData.Columns.Count = 0]" DisplayName="If_MergedData was not initialised with header" sap:VirtualizedContainerService.HintSize="451.2,453.6" sap2010:WorkflowViewState.IdRef="If_3">
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <Sequence DisplayName="Then_Put header" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_6">
+                    <Assign DisplayName="Assign_Header clone to the merged TableData" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_6">
                       <Assign.To>
-                        <OutArgument x:TypeArguments="sd:DataTable">[tableData]</OutArgument>
+                        <OutArgument x:TypeArguments="sd:DataTable">[out_dtTableData]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="sd:DataTable">[tempTable.Clone()]</InArgument>
+                        <InArgument x:TypeArguments="sd:DataTable">[dtTempTable.Clone()]</InArgument>
                       </Assign.Value>
                     </Assign>
                   </Sequence>
                 </If.Then>
                 <If.Else>
-                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <Sequence DisplayName="Else_Nothing" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -207,19 +207,18 @@
                   </Sequence>
                 </If.Else>
               </If>
-              <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="451.2,158.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="Merge">
+              <InvokeMethod DisplayName="Invoke Method_Merge table data" sap:VirtualizedContainerService.HintSize="451.2,158.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="Merge">
                 <InvokeMethod.TargetObject>
-                  <InArgument x:TypeArguments="sd:DataTable">[tableData]</InArgument>
+                  <InArgument x:TypeArguments="sd:DataTable">[out_dtTableData]</InArgument>
                 </InvokeMethod.TargetObject>
-                <InArgument x:TypeArguments="sd:DataTable">
-                  <VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="tempTable" />
-                </InArgument>
+                <InArgument x:TypeArguments="sd:DataTable">[dtTempTable]</InArgument>
               </InvokeMethod>
             </Sequence>
           </Sequence>
         </ActivityAction>
       </ui:ForEach.Body>
     </ui:ForEach>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="520,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Done Load Data&quot;]" />
+    <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" DataTable="[out_dtTableData]" DisplayName="[DEBUG]_Save merged data" sap:VirtualizedContainerService.HintSize="520,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="merged_data.xlsx" />
+    <ui:LogMessage DisplayName="Log Message_Done LoadData" sap:VirtualizedContainerService.HintSize="520,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Done Load Data&quot;]" />
   </Sequence>
 </Activity>

@@ -229,43 +229,43 @@
       <AssemblyReference>System.Net.Sockets</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenMuziker" sap:VirtualizedContainerService.HintSize="848.4000000000001,3056" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenMuziker" sap:VirtualizedContainerService.HintSize="798.8000000000001,3232" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="553.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;In OpenMuziker&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Edge Muziker - Un milion de bucurii" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="553.6,2858.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="Always" ScopeGuid="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V2" WindowResize="Maximize">
+    <ui:LogMessage DisplayName="Log Message_InOpenMuziker" sap:VirtualizedContainerService.HintSize="553.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;In OpenMuziker&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Edge Muziker - Un milion de bucurii_Open and initialise website" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="553.6,3034.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="Always" ScopeGuid="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,2618.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do_Initialisation" sap:VirtualizedContainerService.HintSize="520,2794.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'IMG'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,2556.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'IMG'_Verify opened status by logo" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,2732.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,2072.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,2248.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Opened Muziker page&quot;]" />
-                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="451.2,767.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                  <ui:LogMessage DisplayName="Log Message_Site opened" sap:VirtualizedContainerService.HintSize="451.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Opened Muziker page&quot;]" />
+                  <TryCatch DisplayName="Try Catch_Cookies Page" sap:VirtualizedContainerService.HintSize="451.2,943.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                     <TryCatch.Try>
-                      <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="449.6,276.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <Sequence DisplayName="Try_Accept cookies" sap:VirtualizedContainerService.HintSize="449.6,452.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sunt de acord'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sunt de acord'_Accept cookies" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="muziker.ro" CVScreenId="e1b168c1-3521-4165-bec3-0f83b6944464" ContentHash="c_2QjRlcP0izlm_H7wGhZg" CvElementArea="780, 703, 359, 57" CvTextArea="892, 721, 135, 17" CvTextArgument="Sunt de acord" CvType="Button" DesignTimeRectangle="786, 705, 350, 53" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Sunt de acord ' parentid='cookies-modal' tag='DIV' /&gt;" Guid="7b3c1b15-a54b-4e9d-a122-54f316586fd3" InformativeScreenshot="933209fbcbc3451b91774e8fbb3d2a11.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/o0rNDdMRo0KDIFrhuaqwpw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NClick.Target>
@@ -280,6 +280,7 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NClick.VerifyOptions>
                         </uix:NClick>
+                        <ui:LogMessage DisplayName="Log Message_Cookies found" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Cookies pop-up found and accepted!&quot;]" />
                       </Sequence>
                     </TryCatch.Try>
                     <TryCatch.Catches>
@@ -294,7 +295,7 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;No cookies page!&quot;]" />
+                            <ui:LogMessage DisplayName="Log Message_NoCookiesPageFound" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;No cookies page!&quot;]" />
                           </Sequence>
                         </ActivityAction>
                       </Catch>
@@ -309,7 +310,7 @@
                       </Sequence>
                     </TryCatch.Finally>
                   </TryCatch>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ro'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ro'_LanguageButton" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="muziker.ro" CVScreenId="fef46b39-1b85-4722-8049-62fe00277da1" ContentHash="w-GM5BkxtUGI-Tp22HbekA" CvTextArea="1555, 245, 28, 17" CvTextArgument="RO" CvType="Text" DesignTimeRectangle="1557, 240, 27, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='current_nav_frame' tag='SPAN' /&gt;" Guid="b01fc71c-eaec-4189-942c-0daf4ada6fdb" InformativeScreenshot="8ab37a62d0fad8d39934148cbdb9111b.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/b_C3vB58y021ldgJmZFgyA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
@@ -324,7 +325,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Română'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Română'_CurrentLanguage" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="muziker.ro" CVScreenId="37dc15d1-739b-4d52-b96f-b1e4a20caa7f" ContentHash="_r8K3aofyEOKidsNyW3ScA" CvElementArea="635, 642, 670, 63" CvType="InputBox" DesignTimeRectangle="662, 656, 130, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Română' aria-role='textbox' tag='SPAN' type='' class='select2-selection__rendered' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Română' /&gt;" Guid="b326960f-da69-4348-8f80-c7ff16b1826b" InformativeScreenshot="23e8c54af665c7cb6a1e7f0e47efcbb2.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/sk8jydk9ZEKoTT-tKDGGHg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -345,7 +346,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'English'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'English'_ChangeToEnglish" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="muziker.ro" CVScreenId="858d5376-060e-44d0-9b84-481b52c37e18" ContentHash="QbJYoFeND0i6MyboFZeK_g" CvTextArea="664, 796, 67, 22" CvTextArgument="English" CvType="Text" DesignTimeRectangle="656, 783, 611, 47" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='option' tag='LI' /&gt;" Guid="271e65c7-c0a2-4f49-8db9-7077787bdf86" InformativeScreenshot="e7831a5fe9cb3f0cce9efe14e3f53cb2.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/GvPt6LJiBUSmaDk6UGUGYw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
@@ -360,7 +361,7 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'_SetLanguage" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,225.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="muziker.ro" CVScreenId="be590462-17a0-4e1d-9cc0-c3605838af0f" ContentHash="OdQauWN4C0eFKlwoWfQtYg" CvElementArea="1222, 760, 87, 59" CvTextArea="1250, 779, 30, 18" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1226, 763, 80, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='new_public_country_selector_form' tag='INPUT' type='submit' /&gt;" Guid="6778d128-5922-463e-82f3-b50f70271921" InformativeScreenshot="99ce64f3587b64ea2bee34a37d886cac.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/zvcXN1vt5Uy1_Ii711SXCw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - Un milion de bucurii' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
@@ -375,17 +376,17 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="451.2,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Done page setup&quot;]" />
+                  <ui:LogMessage DisplayName="Log Message_DoneSetup" sap:VirtualizedContainerService.HintSize="451.2,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Done page setup&quot;]" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484.8,227.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Target does not appear_ErrorNoWebPage" sap:VirtualizedContainerService.HintSize="484.8,227.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[&quot;Could not open Muziker page!&quot;]" />
+                  <ui:LogMessage DisplayName="Log Message_ErrorLogNoWebPage" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[&quot;Could not open Muziker page!&quot;]" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
