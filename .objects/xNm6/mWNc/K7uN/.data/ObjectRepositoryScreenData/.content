@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="misFdAvnw06DXa2TIFPVNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1098" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGQSURBVDhPnZLNS0JREMX7w/qwFoXgsrYtWtXCWhVRy0qtiDbSItqISvSxKXJXPimyokzUfAkFYRTURom+U9/pnkEf3jAoBw4MM7859765r8XrMHqUUkr4pzJKTho0M1zTBQ0qdqHDwExbVOT5oVqdjM07DIsG9vCCcx9bUyYOg3nEw0qhqlTOGntk6k1sA19XDEcKtMoWfgv2yJDVDDztBvx9cRTv3gS8OSsgu/uI0kdFxJw1BhmynNEMVgZO8f5UQkWdsjaagq8zhs3JjIj52lhKemTIagZcTtB9Lqd9vpYRGEwgMptDyJ1EaDiJyFwOgaGE9MiQlYXWG2xMZGBVgJfCJ5b7TxDx5RAeUQZKO75Lqb0UvoQhqxu0RgWSb7x/h783LoBHbZtizhp7DLKc0W6wt3QtzYerZyy6DvT3Vjlr7DHIajfgQvg8jHyyiPlu/a2Zs8Yeg6y2RALr42kcr95ie9qUrdvDVbHGHhmytQNoYDGho3x31bmRGjDyK6drQBMyaeBUytYV/yrT6zBc3/SC0V9LY3zYAAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='Muziker - A million joys' /&gt;" Url="https://www.muziker.ro/en?current_country_code=ro&amp;utm_medium=country_select&amp;utm_source=muziker.ro" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="4867554143f5e661b5d2c83a5088df1c.jpg" xmlns="">0yFR0lXAmVk6Ym0KRj6UZ0Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

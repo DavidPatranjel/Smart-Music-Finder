@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BcXEebQtLEuC80Bv9nUTUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" DesignTimeRectangle="1357, 126, 118, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='  Search   ' aria-label='Search' tag='BUTTON' type='' class='mzkr-btn-primary mzkr-nav__search-button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Search' /&gt;" Guid="a66ac6c0-f26c-480d-bbe7-b9996c82b998" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Pop (10000)' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1383, 139, 66, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Search ' tag='SPAN' type='' class='mzkr-d-none mzkr-d-lg-block' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Search' /&gt;" Guid="e90f9660-041a-4178-8205-2d316d9f1a6a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e334d5dcfce4d459f9f398cabcd700cf.png" xmlns="">0jT0NxyASrkCK91cJwxPkVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

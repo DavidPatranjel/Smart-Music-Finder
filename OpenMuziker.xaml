@@ -1,4 +1,11 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OpenMuziker" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OpenMuziker_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OpenMuziker" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_dtTableData" Type="InArgument(sd:DataTable)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>OpenMuziker_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -229,28 +236,31 @@
       <AssemblyReference>System.Net.Sockets</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenMuziker" sap:VirtualizedContainerService.HintSize="798.8000000000001,3232" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenMuziker" sap:VirtualizedContainerService.HintSize="726,3408" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ui:Browser" Name="Chrome_Browser" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message_InOpenMuziker" sap:VirtualizedContainerService.HintSize="553.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;In OpenMuziker&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Edge Muziker - Un milion de bucurii_Open and initialise website" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="553.6,3034.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="Always" ScopeGuid="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Edge Muziker - Un milion de bucurii_Open and initialise website" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="553.6,3210.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" IsIncognito="False" OpenMode="Always" OutUiElement="[Chrome_Browser]" ScopeGuid="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do_Initialisation" sap:VirtualizedContainerService.HintSize="520,2794.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do_Initialisation" sap:VirtualizedContainerService.HintSize="520,2970.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'IMG'_Verify opened status by logo" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,2732.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'IMG'_Verify opened status by logo" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,2908.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="55a18d22-33f0-45d1-8191-ce2ce071363a" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,2248.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,2424.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -376,7 +386,13 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <ui:LogMessage DisplayName="Log Message_DoneSetup" sap:VirtualizedContainerService.HintSize="451.2,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Done page setup&quot;]" />
+                  <ui:LogMessage DisplayName="Log Message_DoneSetup" sap:VirtualizedContainerService.HintSize="451.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Done page setup&quot;]" />
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ScrapeData - Invoke Workflow File (ScrapeData.xaml)" sap:VirtualizedContainerService.HintSize="451.2,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ScrapeData.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtTableData">[in_dtTableData]</InArgument>
+                      <InArgument x:TypeArguments="ui:Browser" x:Key="in_Browser">[Chrome_Browser]</InArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>

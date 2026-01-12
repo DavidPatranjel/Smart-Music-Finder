@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pfBmul0_5EeX6smmgA-tsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="4447f672-2691-4a0d-8972-5377860796a7" CvElementArea="113, 603, 25, 25" CvType="CheckBox" DesignTimeRectangle="116, 606, 20, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='checkmark' idx='4' parentid='collapseТype' tag='SPAN' /&gt;" Guid="0da0e20d-3270-48f9-b1f8-6264558bcd54" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Taylor Swift (55)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4447f672-2691-4a0d-8972-5377860796a7" CvElementArea="113, 603, 25, 25" CvTextArea="144, 609, 57, 17" CvTextArgument="CD (19)" CvType="CheckBox" DesignTimeRectangle="116, 605, 261, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='collapseТype' tag='LABEL' class='mzkr-checkbox' aaname='  ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='CD (19)' /&gt;" Guid="2eddae4f-fcea-4a9c-b78a-1c4a5d18c706" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d4de7f3c652cce4bf06d9e2844b3ae6b.png" xmlns="">00P22sKK2b0qjspn0GOhlqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

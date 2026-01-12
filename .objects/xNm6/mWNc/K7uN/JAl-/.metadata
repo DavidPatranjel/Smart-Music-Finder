@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Beyoncé - Lemonade (Yel…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "JAl-960lMU6wh--4JOog0Q",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/JAl-960lMU6wh--4JOog0Q",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/K7uN0wWFQ0qAcahetc_FGw",
+  "Created": "2026-01-12T20:57:36.080959Z",
+  "Updated": "2026-01-12T20:57:36.080959Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

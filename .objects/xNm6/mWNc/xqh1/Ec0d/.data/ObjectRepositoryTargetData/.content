@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dEc9AqZj90CBNTnmaBfuRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en" CVScreenId="c80c23fe-d91f-481d-b696-35b89d6b2b4b" CvElementArea="408, 233, 858, 58" CvType="InputBox" DesignTimeRectangle="419, 243, 40, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Search' tag='BUTTON' /&gt;" Guid="25ae3772-82dc-49e3-b229-367155d27c30" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - A million joys' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7117861959e7cc23818c66046694ce35.png" xmlns="">0yWvLPu24ME2ZrQNGwYoTjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

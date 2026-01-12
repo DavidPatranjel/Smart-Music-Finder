@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2KBUPbe8iEeeyuF6H_SN_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en" CVScreenId="614ae456-9aad-4847-8c12-310fd075e584" CvElementArea="404, 231, 864, 60" CvType="InputBox" DesignTimeRectangle="406, 235, 862, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='global-search' tag='INPUT' /&gt;" Guid="355c55ae-4641-4ff3-bccb-b9fb7383e609" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Muziker - A million joys' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="614ae456-9aad-4847-8c12-310fd075e584" CvElementArea="404, 231, 864, 60" CvType="InputBox" DesignTimeRectangle="419, 243, 40, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='Search' tag='BUTTON' /&gt;" Guid="cf78657e-4af5-4528-88b4-8c329b2dcc0e" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="63dd0196d0dcc44e0e14929e96dce718.png" xmlns="">0Bnd8CIk1JUKEF6M29M225Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="FmzTTpKcaEK_Cxv5Lc-qwg" Reference="o9cL7AqKxUGEWUDwxt55Gw/xqh1XYCPlUeAmOqKx5gBRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1098" BrowserType="Edge" ContentHash="J6OSqbvCCUyQPM1ldoxZEQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGQSURBVDhPnZLNS0JREMX7w/qwFoXgsrYtWtXCWhVRy0qtiDbSItqISvSxKXJXPimyokzUfAkFYRTURom+U9/pnkEf3jAoBw4MM7859765r8XrMHqUUkr4pzJKTho0M1zTBQ0qdqHDwExbVOT5oVqdjM07DIsG9vCCcx9bUyYOg3nEw0qhqlTOGntk6k1sA19XDEcKtMoWfgv2yJDVDDztBvx9cRTv3gS8OSsgu/uI0kdFxJw1BhmynNEMVgZO8f5UQkWdsjaagq8zhs3JjIj52lhKemTIagZcTtB9Lqd9vpYRGEwgMptDyJ1EaDiJyFwOgaGE9MiQlYXWG2xMZGBVgJfCJ5b7TxDx5RAeUQZKO75Lqb0UvoQhqxu0RgWSb7x/h783LoBHbZtizhp7DLKc0W6wt3QtzYerZyy6DvT3Vjlr7DHIajfgQvg8jHyyiPlu/a2Zs8Yeg6y2RALr42kcr95ie9qUrdvDVbHGHhmytQNoYDGho3x31bmRGjDyK6drQBMyaeBUytYV/yrT6zBc3/SC0V9LY3zYAAAAAElFTkSuQmCC" Reference="o9cL7AqKxUGEWUDwxt55Gw/xqh1XYCPlUeAmOqKx5gBRw" Selector="&lt;html app='msedge.exe' title='Muziker - A million joys' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="8f9e52ff36269f760da0c7e22ee315df.jpg" xmlns="">0tC1V2nRXpkW0lkHz2DkAwg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

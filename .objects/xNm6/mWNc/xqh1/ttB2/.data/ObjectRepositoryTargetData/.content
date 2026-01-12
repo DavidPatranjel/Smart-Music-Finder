@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="57W_HyJzvUi02AfNOiV6nw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" DesignTimeRectangle="406, 236, 862, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='global-search' tag='INPUT' /&gt;" Guid="cd292954-8aee-46d5-8140-f2da948dc29d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Search' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1cf98c24f29745c80bac4dbeb0296086.png" xmlns="">0yjQAmO736EOsjSjZbIH6UQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

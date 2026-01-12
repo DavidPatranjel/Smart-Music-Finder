@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kTUjsLnsd0WGc31EkQQIOw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" DesignTimeRectangle="476, 693, 295, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='lb-results' tag='H4' /&gt;" Guid="c30532ba-ab01-4887-9847-557adbb372a6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="327e93be2c75b2107590866789c36e5a.png" xmlns="">0jxDjxr9iEk-MB-hoslsXHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

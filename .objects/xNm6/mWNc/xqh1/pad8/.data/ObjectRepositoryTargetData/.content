@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cqlxTO7Jk02RpB6-rzIADA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="509f3e25-b4f9-44e2-a11a-269f9b1e3764" CvElementArea="404, 233, 864, 62" CvType="InputBox" DesignTimeRectangle="406, 236, 862, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='global-search' tag='INPUT' /&gt;" Guid="bec0088e-e3ef-4869-a1d3-36ec4c0675da" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4ac4dacaeff79919c12fd72706eada6f.png" xmlns="">0ZlwEtx3N7kWymBgEKxnJiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

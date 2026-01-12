@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vfRb26f_Sk-5OOhHbZOCAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="2f760996-88c2-40eb-8195-957623f5f5f1" CvElementArea="164, 440, 26, 24" CvType="ArrowButton" DesignTimeRectangle="160, 442, 26, 19" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h6&amp;gt;i' idx='5' parentid='main-filter' tag='I' /&gt;" Guid="91cec643-cce7-47e2-aed0-7ea1d671e5ae" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Pop (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2f760996-88c2-40eb-8195-957623f5f5f1" CvTextArea="112, 442, 47, 21" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="116, 440, 44, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Тype' /&gt;" Guid="1edc1609-0622-499e-8dd5-a8fdcb716a78" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-8" Y="-8" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8f7de5af2564b5f47489f523e929ff07.png" xmlns="">0EradFz9Bg0aocDM7F31ZfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

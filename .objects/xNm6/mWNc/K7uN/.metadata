@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Muziker - A million joys(1)",
+  "Type": "Screen",
+  "Id": "K7uN0wWFQ0qAcahetc_FGw",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/K7uN0wWFQ0qAcahetc_FGw",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/mWNcvpk4NkWAUq3YVULmbQ",
+  "Created": "2026-01-12T20:18:33.2943044Z",
+  "Updated": "2026-01-12T20:18:33.2943044Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

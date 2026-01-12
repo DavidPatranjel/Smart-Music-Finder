@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Checkbox",
+  "Type": "Element",
+  "Id": "jITREQWOd0CO_MMUs_18Hg",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/jITREQWOd0CO_MMUs_18Hg",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/GdAPi9zaYUub57BQSkJ6Ag",
+  "Created": "2025-12-11T19:44:02.6746929Z",
+  "Updated": "2025-12-11T19:44:02.6746929Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

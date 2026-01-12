@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xiD-NR_tCEmTxCWJ_gPfsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="7362b484-a54e-44e7-a388-d1b9f8d1c2a9" CvElementArea="164, 757, 26, 25" CvType="ArrowButton" DesignTimeRectangle="160, 759, 26, 19" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h6&amp;gt;i' idx='10' parentid='main-filter' tag='I' /&gt;" Guid="3b71f9a3-c9ca-44f8-ad6f-56a3b6248c35" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for The Beatles (704)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7362b484-a54e-44e7-a388-d1b9f8d1c2a9" CvTextArea="112, 759, 47, 21" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="116, 757, 44, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="0c478c91-03f5-417c-882f-347062397be7" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c1fe18b3317b72ccd77144a820eed21a.png" xmlns="">0X6BfTLa53EiMZCUxJgAhWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

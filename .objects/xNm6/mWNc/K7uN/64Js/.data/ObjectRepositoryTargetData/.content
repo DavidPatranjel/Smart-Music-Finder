@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VIaw1Wsyi0qZjfF8YbTeVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="83f3724e-f9b1-418c-b990-7f133acdb36f" CvTextArea="114, 900, 86, 17" CvTextArgument="Products" CvType="Text" DesignTimeRectangle="116, 899, 85, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h6' tag='H6' /&gt;" Guid="722abf23-23dd-4db2-bbea-cf74dbb1e4d5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="83f3724e-f9b1-418c-b990-7f133acdb36f" CvTextArea="114, 966, 121, 22" CvTextArgument="Only in stock" CvType="Text" DesignTimeRectangle="116, 965, 120, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='main-filter' tag='SPAN' type='' class='' aaname=' Only in stock ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Only in stock' /&gt;" Guid="d98ebaa4-4729-4c38-a0b8-6083eeece96b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="215ce16a37fa5b09d2de3ee51fbe6dfc.png" xmlns="">0mMPvqsZmZ0K480n_g8A6BQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT global-search",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "HrBMKWzP30-khZNbBC_AeA",
+  "Reference": "o9cL7AqKxUGEWUDwxt55Gw/HrBMKWzP30-khZNbBC_AeA",
+  "ParentRef": "o9cL7AqKxUGEWUDwxt55Gw/K7uN0wWFQ0qAcahetc_FGw",
+  "Created": "2026-01-12T20:26:15.4575314Z",
+  "Updated": "2026-01-12T20:26:15.4575314Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
