@@ -204,11 +204,7 @@
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="555.2,5032.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
                           <Sequence.Variables>
-                            <Variable x:TypeArguments="x:String" Name="sortBy">
-                              <Variable.Default>
-                                <Literal x:TypeArguments="x:String">Most favourite</Literal>
-                              </Variable.Default>
-                            </Variable>
+                            <Variable x:TypeArguments="x:String" Default="Most favourite" Name="sortBy" />
                             <Variable x:TypeArguments="x:String" Name="userEmailBody" />
                             <Variable x:TypeArguments="sd:DataTable" Name="dt_userProduct" />
                             <Variable x:TypeArguments="scg:List(ui:UiElement)" Name="userProducts" />
@@ -258,13 +254,7 @@
                               </sap:WorkflowViewStateService.ViewState>
                               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.4,216.8" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
                                 <uix:NClick.Target>
-                                  <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="1e1f8069-85b9-4ee4-81fc-1f5602b2c2f0" ContentHash="vFsiQTqYXEetbSjy17GEPQ" CvElementArea="103, 741, 22, 22" CvTextArea="131, 745, 74, 17" CvTextArgument="CD (4328)" CvType="CheckBox" DesignTimeRectangle="106, 742, 233, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='input' type='checkbox' value='CD' /&gt;" Guid="2253b8a3-f435-4ab3-9731-195139d06139" InformativeScreenshot="e7bf0920c2e5dbec033769eba6936fd9.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/noxwOC6nWUevWoB-q442tA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6">
-                                    <uix:TargetAnchorable.WaitForReadyArgument>
-                                      <InArgument x:TypeArguments="uix:NWaitForReady">
-                                        <Literal x:TypeArguments="uix:NWaitForReady" sap2010:WorkflowViewState.IdRef="Literal`1_3" Value="Interactive" />
-                                      </InArgument>
-                                    </uix:TargetAnchorable.WaitForReadyArgument>
-                                  </uix:TargetAnchorable>
+                                  <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="1e1f8069-85b9-4ee4-81fc-1f5602b2c2f0" ContentHash="VFGBdUvgTEu3LCuofriE0Q" CvElementArea="103, 741, 22, 22" CvTextArea="131, 745, 74, 17" CvTextArgument="CD (4328)" CvType="CheckBox" DesignTimeRectangle="106, 742, 233, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='input' type='checkbox' value='CD' /&gt;" Guid="2253b8a3-f435-4ab3-9731-195139d06139" InformativeScreenshot="e7bf0920c2e5dbec033769eba6936fd9.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/noxwOC6nWUevWoB-q442tA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                                 </uix:NClick.Target>
                                 <uix:NClick.VerifyOptions>
                                   <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -296,7 +286,7 @@
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="8cabaacc-7601-4066-9b21-e706e9a6f4a8" ContentHash="BtPLrZNR6USWcUj1VH1p5g" CvElementArea="168, 711, 19, 18" CvTextArea="190, 714, 79, 13" CvTextArgument="LP record (11)" CvType="CheckBox" DesignTimeRectangle="170, 711, 191, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' parentid='collapseТype' tag='LABEL' class='mzkr-checkbox' aaname='  ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='LP record (11)' /&gt;" Guid="804d7196-ee93-4737-bfd0-4c22a4b1e61d" InformativeScreenshot="bb321916e0636e481db68ea4b470c7c6.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/1FHqIKR-8k6yxpxe85taGw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                                           <uix:TargetAnchorable.Anchors>
-                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                               <uix:Target CVScreenId="8cabaacc-7601-4066-9b21-e706e9a6f4a8" CvTextArea="190, 714, 79, 13" CvTextArgument="LP record (11)" CvType="Text" DesignTimeRectangle="192, 710, 79, 20" FuzzySelectorArgument="&lt;webctrl aaname='LP record ' parentid='collapseТype' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='LP record (11)' /&gt;" Guid="6878a0ad-ca73-4225-98fc-2371214036f7" SearchSteps="FuzzySelector, CV" />
                                             </scg:List>
                                           </uix:TargetAnchorable.Anchors>
@@ -399,7 +389,7 @@
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="9ab13c15-2013-4637-aa81-42a62c46e8ad" ContentHash="ZSFQh7R_ZE6hG04eucsijQ" CvElementArea="1478, 574, 188, 35" CvType="Button" DesignTimeRectangle="1546, 753, 206, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.53" FuzzySelectorArgument="&lt;webctrl class='sortby-dropdown__placeholder' parentid='lb-search-element' tag='SPAN' type='' aaname=' Most favourite ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Most favourite' /&gt;" Guid="d9a6a5b2-e801-4b18-8609-55600d48d463" InformativeScreenshot="95b807ed1a84fe0a98789199f92984fc.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/YP8zvZQX3UKk13P8dytYHw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="9ab13c15-2013-4637-aa81-42a62c46e8ad" CvElementArea="1478, 574, 188, 35" CvType="Button" DesignTimeRectangle="1539, 751, 213, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='listing-filter-btn-wrap' aaname=' ' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Most favourite' /&gt;" Guid="0a43cc04-c1f1-4560-a793-46b9cd1ff9a0" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
