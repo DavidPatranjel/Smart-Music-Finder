@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yoemP1-BCEiyawE-92muXA" Reference="o9cL7AqKxUGEWUDwxt55Gw/eLtsYr_6gEiKKL5VrjOINw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="4efc0d00-84d3-4ec8-a385-bcc50b5a1c9e" CvTextArea="104, 691, 73, 17" CvTextArgument="CD (4328)" CvType="Text" DesignTimeRectangle="106, 688, 72, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' value='CD' /&gt;" Guid="45fab7c9-f26b-4b3c-841c-83490ca89301" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e20128b1dea1bf85f5cabe4e3fc720c6.png" xmlns="">0R8Vp9cqJrEGBHOksMiqkXw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

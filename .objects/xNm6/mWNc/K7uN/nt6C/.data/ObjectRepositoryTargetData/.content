@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rBWB_K82KU-mfhIXy8lbfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="07dc3138-0bfa-43db-b04a-64ec9eb13b15" CvTextArea="104, 586, 41, 18" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="106, 584, 39, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="fca374fb-e305-40d3-b6b2-cd13f357692f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4e17191c801344534b4a1283d33f73d1.png" xmlns="">05Ns2h0mrPkqYj8mV4ST7hQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

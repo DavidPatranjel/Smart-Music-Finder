@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m_9eqXGWwkWlvEmjsSw1TA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="2c6442bd-8d09-4a3b-be0b-45a8958df943" CvTextArea="104, 620, 41, 20" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="106, 1136, 39, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="c1d708f3-071b-435c-b558-7bd637e41b4b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Thriller (64)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cfc928dd-cc5a-4df1-a927-5bce6fb29863" CvTextArea="104, 317, 78, 16" CvTextArgument="Products" CvType="Text" DesignTimeRectangle="106, 325, 76, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H6' class='mzkr-text-primary mzkr-mb-0 mzkr-mr-1' aaname=' Products ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Products' /&gt;" Guid="af2e4230-6d54-4ea8-ba99-8fe901bbef31" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="24e17d285b9706a490f1ccf7ada4cad3.png" xmlns="">0vRkz-cFyGkmH-CikRTS8Jg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

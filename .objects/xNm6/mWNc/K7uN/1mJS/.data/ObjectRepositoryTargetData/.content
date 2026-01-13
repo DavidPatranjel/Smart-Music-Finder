@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DexHYCcS602ybg300XOCkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="3fc153dd-bd33-4d28-94cb-b44978179fab" DesignTimeRectangle="189, 509, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' value='LP' /&gt;" Guid="94455f01-967c-4a90-8992-737270d900a3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="335260624be683b4003474ce236c6f66.png" xmlns="">0Th2BR1qGe0Cjjk8lD-TsNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

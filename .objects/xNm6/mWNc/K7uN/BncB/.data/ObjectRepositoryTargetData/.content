@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Sp_fNxW86Uu-1Csdo-PWeg" Reference="o9cL7AqKxUGEWUDwxt55Gw/BncBYtsOQ0iHhPXNqzZh9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="cee2d4de-dd43-44b3-b054-8abf084a9971" DesignTimeRectangle="106, 451, 63, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyoncé (28)' /&gt;&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="d85081cf-2ec4-4604-9dc6-842423d7676d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Jazz (4970)' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc0d53cb43cb66966df53f737e599b0b.png" xmlns="">0rOMp28v_ZkmxrSySmMWsug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

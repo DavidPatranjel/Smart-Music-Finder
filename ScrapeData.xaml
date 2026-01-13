@@ -136,32 +136,32 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ScrapeData" sap:VirtualizedContainerService.HintSize="898.8000000000001,6763.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ScrapeData" sap:VirtualizedContainerService.HintSize="902.8000000000001,7409.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="659.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Doing scraping&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Muziker - A million joys(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="659.2,6565.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Muziker - A million joys(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="659.2,7212" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="625.6,6325.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="625.6,6972" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[in_dtTableData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="592,6264" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[in_dtTableData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="592,6910.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="590.4,6089.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="590.4,6736" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -200,11 +200,15 @@
                         </uix:TargetAnchorable>
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <uix:NCheckState DisplayName="Check App State 'Products'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="556.8,5377.6" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Timeout="3" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State 'Products'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="556.8,6024" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Timeout="3" Version="V5">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="555.2,5032.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="555.2,5679.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
                           <Sequence.Variables>
-                            <Variable x:TypeArguments="x:String" Default="Most favourite" Name="sortBy" />
+                            <Variable x:TypeArguments="x:String" Name="sortBy">
+                              <Variable.Default>
+                                <Literal x:TypeArguments="x:String">Most favourite</Literal>
+                              </Variable.Default>
+                            </Variable>
                             <Variable x:TypeArguments="x:String" Name="userEmailBody" />
                             <Variable x:TypeArguments="sd:DataTable" Name="dt_userProduct" />
                             <Variable x:TypeArguments="scg:List(ui:UiElement)" Name="userProducts" />
@@ -217,26 +221,67 @@
                           </sap:WorkflowViewStateService.ViewState>
                           <ui:Comment sap:VirtualizedContainerService.HintSize="521.6,88" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// filtering" />
                           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="521.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[row(&quot;Type&quot;).ToString]" />
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Тype(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="521.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
-                            <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="9e17d920-e122-4680-801f-86ede3e5f1cd" ContentHash="Vq46AmLyQEu0YDsdBst5aA" CvTextArea="167, 787, 35, 16" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="170, 788, 32, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="1b801d5b-ad80-4e25-94bd-4cb6a35ca415" InformativeScreenshot="065fd600003b055124a57fef21bcaa4a.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/UxICd7r25U-oVvuRQz9aLw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for contry (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                                <uix:TargetAnchorable.PointOffset>
-                                  <uix:PointOffset X="2" Y="3" />
-                                </uix:TargetAnchorable.PointOffset>
-                              </uix:TargetAnchorable>
-                            </uix:NClick.Target>
-                            <uix:NClick.VerifyOptions>
-                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                <uix:VerifyExecutionOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionOptions.Retry>
-                                <uix:VerifyExecutionOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionOptions.Timeout>
-                              </uix:VerifyExecutionOptions>
-                            </uix:NClick.VerifyOptions>
-                          </uix:NClick>
-                          <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[row(&quot;Type&quot;).ToString.Trim]" sap:VirtualizedContainerService.HintSize="521.6,1893.6" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="521.6,629.6" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+                            <TryCatch.Try>
+                              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="449.6,276.8" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Тype(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="07dc3138-0bfa-43db-b04a-64ec9eb13b15" ContentHash="rBWB_K82KU-mfhIXy8lbfA" CvTextArea="104, 586, 41, 18" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="106, 584, 39, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="fca374fb-e305-40d3-b6b2-cd13f357692f" InformativeScreenshot="4e17191c801344534b4a1283d33f73d1.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/nt6CdO_kREOfpmHI6fFvAQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="Element 'Тype'" Mode="Appears">
+                                      <uix:VerifyExecutionOptions.Retry>
+                                        <InArgument x:TypeArguments="x:Boolean" />
+                                      </uix:VerifyExecutionOptions.Retry>
+                                      <uix:VerifyExecutionOptions.Target>
+                                        <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="efde80a6-882a-488e-8e48-ae2107f6edbb" ContentHash="q2bp_KmfVEevPvnm-NeJGg" CvElementArea="149, 617, 25, 22" CvType="ArrowButton" DesignTimeRectangle="145, 621, 24, 17" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h6&amp;gt;i' idx='7' parentid='main-filter' tag='I' /&gt;" Guid="09cf340f-04a6-4176-bfe6-edc18d86d5a2" InformativeScreenshot="a423d4701edf9aba9a1021cadb2d9486.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/aUc_h-sHiUuDQvuIgxHbkQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyoncé (28)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                              <uix:Target CVScreenId="efde80a6-882a-488e-8e48-ae2107f6edbb" CvTextArea="104, 620, 41, 18" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="106, 619, 39, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Тype' /&gt;" Guid="e9148efb-4dcd-4b41-9c0d-abb6f0db97ad" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:VerifyExecutionOptions.Target>
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                </uix:NClick>
+                              </Sequence>
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_4">
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                          <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[row(&quot;Type&quot;).ToString.Trim]" sap:VirtualizedContainerService.HintSize="521.6,2297.6" sap2010:WorkflowViewState.IdRef="Switch`1_1">
                             <Switch.Default>
                               <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="520,89.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -246,27 +291,63 @@
                                 </sap:WorkflowViewStateService.ViewState>
                               </Sequence>
                             </Switch.Default>
-                            <Sequence x:Key="CD" DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,276.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                            <Sequence x:Key="CD" DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,680.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486.4,216.8" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
-                                <uix:NClick.Target>
-                                  <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="1e1f8069-85b9-4ee4-81fc-1f5602b2c2f0" ContentHash="VFGBdUvgTEu3LCuofriE0Q" CvElementArea="103, 741, 22, 22" CvTextArea="131, 745, 74, 17" CvTextArgument="CD (4328)" CvType="CheckBox" DesignTimeRectangle="106, 742, 233, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='input' type='checkbox' value='CD' /&gt;" Guid="2253b8a3-f435-4ab3-9731-195139d06139" InformativeScreenshot="e7bf0920c2e5dbec033769eba6936fd9.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/noxwOC6nWUevWoB-q442tA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                                </uix:NClick.Target>
-                                <uix:NClick.VerifyOptions>
-                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                    <uix:VerifyExecutionOptions.Retry>
-                                      <InArgument x:TypeArguments="x:Boolean" />
-                                    </uix:VerifyExecutionOptions.Retry>
-                                    <uix:VerifyExecutionOptions.Timeout>
-                                      <InArgument x:TypeArguments="x:Double" />
-                                    </uix:VerifyExecutionOptions.Timeout>
-                                  </uix:VerifyExecutionOptions>
-                                </uix:NClick.VerifyOptions>
-                              </uix:NClick>
+                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486.4,620.8" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                                <TryCatch.Try>
+                                  <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="449.6,276.8" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'CD (4328)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Timeout="3000" Version="V5">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="4efc0d00-84d3-4ec8-a385-bcc50b5a1c9e" ContentHash="yoemP1-BCEiyawE-92muXA" CvTextArea="104, 691, 73, 17" CvTextArgument="CD (4328)" CvType="Text" DesignTimeRectangle="106, 688, 72, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' value='CD' /&gt;" Guid="45fab7c9-f26b-4b3c-841c-83490ca89301" InformativeScreenshot="e20128b1dea1bf85f5cabe4e3fc720c6.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/eLtsYr_6gEiKKL5VrjOINw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </TryCatch.Try>
+                                <TryCatch.Catches>
+                                  <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                                    <ActivityAction x:TypeArguments="s:Exception">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </Catch>
+                                </TryCatch.Catches>
+                                <TryCatch.Finally>
+                                  <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </TryCatch.Finally>
+                              </TryCatch>
                             </Sequence>
                             <Sequence x:Key="Vinyl" DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,1272" sap2010:WorkflowViewState.IdRef="Sequence_13">
                               <sap:WorkflowViewStateService.ViewState>
@@ -274,7 +355,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486.4,1212" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486.4,1212" sap2010:WorkflowViewState.IdRef="TryCatch_4">
                                 <TryCatch.Try>
                                   <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484.8,276.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -282,15 +363,9 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,216.8" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,216.8" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
                                       <uix:NClick.Target>
-                                        <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="8cabaacc-7601-4066-9b21-e706e9a6f4a8" ContentHash="BtPLrZNR6USWcUj1VH1p5g" CvElementArea="168, 711, 19, 18" CvTextArea="190, 714, 79, 13" CvTextArgument="LP record (11)" CvType="CheckBox" DesignTimeRectangle="170, 711, 191, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' parentid='collapseТype' tag='LABEL' class='mzkr-checkbox' aaname='  ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='LP record (11)' /&gt;" Guid="804d7196-ee93-4737-bfd0-4c22a4b1e61d" InformativeScreenshot="bb321916e0636e481db68ea4b470c7c6.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/1FHqIKR-8k6yxpxe85taGw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                                          <uix:TargetAnchorable.Anchors>
-                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                              <uix:Target CVScreenId="8cabaacc-7601-4066-9b21-e706e9a6f4a8" CvTextArea="190, 714, 79, 13" CvTextArgument="LP record (11)" CvType="Text" DesignTimeRectangle="192, 710, 79, 20" FuzzySelectorArgument="&lt;webctrl aaname='LP record ' parentid='collapseТype' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='LP record (11)' /&gt;" Guid="6878a0ad-ca73-4225-98fc-2371214036f7" SearchSteps="FuzzySelector, CV" />
-                                            </scg:List>
-                                          </uix:TargetAnchorable.Anchors>
-                                        </uix:TargetAnchorable>
+                                        <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="dc969db8-8f7f-4f60-a789-9e002cb5e766" ContentHash="dIP2kW5FLE-_YLQNAgX0LA" DesignTimeRectangle="254, 490, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' value='LP record' /&gt;" FuzzyMatches="10000" Guid="045f3709-93e8-4b62-9d54-71ba985a1b28" InformativeScreenshot="e8ec1bfa5df7cbef53d471e556acde38.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/wPYo6xFMb0qhwov6zNJ4tQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                       </uix:NClick.Target>
                                       <uix:NClick.VerifyOptions>
                                         <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -325,9 +400,9 @@
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
+                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Checkbox for LP records" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5bbf20c5-bcba-45ca-8a7c-380f828f04f7" Version="V5">
                                                 <uix:NClick.Target>
-                                                  <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="d8be6c5c-cf86-4a4e-b9eb-6e13a4e5ab40" ContentHash="NVMZJA75zUiBbtU7MCmblg" CvElementArea="103, 517, 22, 22" CvTextArea="131, 521, 57, 17" CvTextArgument="LP (953)" CvType="CheckBox" DesignTimeRectangle="106, 519, 233, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='11' parentid='collapseТype' tag='LABEL' /&gt;" Guid="63f8c786-0870-43cb-abaa-153359fc99b3" InformativeScreenshot="7db006496a4c75ef1a4204b5fb7d4394.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/0aN0N8HZCESM-GhR9ucT8A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                                  <uix:TargetAnchorable BrowserURL="muziker.ro/en/search" CVScreenId="3fc153dd-bd33-4d28-94cb-b44978179fab" ContentHash="DexHYCcS602ybg300XOCkA" DesignTimeRectangle="189, 509, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' value='LP' /&gt;" Guid="94455f01-967c-4a90-8992-737270d900a3" InformativeScreenshot="335260624be683b4003474ce236c6f66.png" Reference="o9cL7AqKxUGEWUDwxt55Gw/1mJSX9M6DE26lnDowyjEpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for country (10000)' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                                 </uix:NClick.Target>
                                                 <uix:NClick.VerifyOptions>
                                                   <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -494,28 +569,17 @@
                             </ui:ForEachRow.Body>
                           </ui:ForEachRow>
                           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="521.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[userEmailBody]" />
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="521.6,328.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-                            <ui:CommentOut.Body>
-                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SendEmail - Invoke Workflow File (SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="SendEmail.xaml">
-                                  <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_strToMessage">[userEmailBody]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_strToAddress">[row("Email").ToString]</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="in_strClientName">[row("Name").ToString]</InArgument>
-                                  </ui:InvokeWorkflowFile.Arguments>
-                                </ui:InvokeWorkflowFile>
-                              </Sequence>
-                            </ui:CommentOut.Body>
-                          </ui:CommentOut>
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SendEmail - Invoke Workflow File (SendEmail.xaml)" sap:VirtualizedContainerService.HintSize="521.6,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="SendEmail.xaml">
+                            <ui:InvokeWorkflowFile.Arguments>
+                              <InArgument x:TypeArguments="x:String" x:Key="in_strToMessage">[userEmailBody]</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="in_strToAddress">[row("Email").ToString]</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="in_strClientName">[row("Name").ToString]</InArgument>
+                            </ui:InvokeWorkflowFile.Arguments>
+                          </ui:InvokeWorkflowFile>
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="518.4,89.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="555.2,89.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
