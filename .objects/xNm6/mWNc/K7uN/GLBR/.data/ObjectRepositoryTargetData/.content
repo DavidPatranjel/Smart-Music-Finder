@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_nS5okOKPE-kmsaKNUNUAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="844c8c34-7fb2-4bd2-9204-9708a9b2d9fd" CvElementArea="205, 737, 20, 19" CvType="ArrowButton" DesignTimeRectangle="202, 739, 20, 14" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h6&amp;gt;i' idx='7' parentid='main-filter' tag='I' /&gt;" Guid="f05103bc-4bd6-4d1c-af39-580611699f11" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for beyonce (28)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="844c8c34-7fb2-4bd2-9204-9708a9b2d9fd" CvTextArea="167, 739, 35, 16" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="170, 738, 32, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Тype' /&gt;" Guid="00a0b6ed-d611-41e2-b4fc-fe441e33ecba" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1f81279722f3be90e8095e19b8cbab7c.png" xmlns="">0sNYr9J4DE0Gd88vojU2Okg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

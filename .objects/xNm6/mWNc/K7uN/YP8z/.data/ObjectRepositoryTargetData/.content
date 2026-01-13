@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZSFQh7R_ZE6hG04eucsijQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="9ab13c15-2013-4637-aa81-42a62c46e8ad" CvElementArea="1478, 574, 188, 35" CvType="Button" DesignTimeRectangle="1546, 753, 206, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzyAccuracy="0.53" FuzzySelectorArgument="&lt;webctrl class='sortby-dropdown__placeholder' parentid='lb-search-element' tag='SPAN' type='' aaname=' Most favourite ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Most favourite' /&gt;" Guid="d9a6a5b2-e801-4b18-8609-55600d48d463" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9ab13c15-2013-4637-aa81-42a62c46e8ad" CvElementArea="1478, 574, 188, 35" CvType="Button" DesignTimeRectangle="1539, 751, 213, 38" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='listing-filter-btn-wrap' aaname=' ' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Most favourite' /&gt;" Guid="0a43cc04-c1f1-4560-a793-46b9cd1ff9a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="95b807ed1a84fe0a98789199f92984fc.png" xmlns="">0fKjBLk2-006o2MLh8wlpsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

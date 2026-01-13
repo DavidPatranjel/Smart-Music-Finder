@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="doGDnjCgBk-VUlrtSYYyKQ" Reference="o9cL7AqKxUGEWUDwxt55Gw/qgsGLWg34k2PdDjaCCLgKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="8a39be53-e579-455c-a2a1-7aa423783e7e" CvTextArea="1566, 791, 91, 12" CvTextArgument="Most favourite" CvType="Text" DesignTimeRectangle="1561, 783, 176, 33" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;webctrl parentid='lb-search-element' tag='LI' innertext='*{0}*' /&gt;&quot;, sortBy)]" Guid="e7c7aef1-fa84-4d04-8e93-0f94e761d4dc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Beyonce (28)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d105c58c82b47a08fe4dbde8340706d5.png" xmlns="">0ZGk4J0QTN0qd0VSLwqC8QA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Most favourite" Name="sortBy" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

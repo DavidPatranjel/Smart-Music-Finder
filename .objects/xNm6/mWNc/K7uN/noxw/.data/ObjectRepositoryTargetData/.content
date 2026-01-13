@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VFGBdUvgTEu3LCuofriE0Q" Reference="o9cL7AqKxUGEWUDwxt55Gw/noxwOC6nWUevWoB-q442tA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="1e1f8069-85b9-4ee4-81fc-1f5602b2c2f0" CvElementArea="103, 741, 22, 22" CvTextArea="131, 745, 74, 17" CvTextArgument="CD (4328)" CvType="CheckBox" DesignTimeRectangle="106, 742, 233, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='input' type='checkbox' value='CD' /&gt;" Guid="2253b8a3-f435-4ab3-9731-195139d06139" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for Country (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.WaitForReadyArgument>
+        <p:InArgument x:TypeArguments="NWaitForReady">
+          <p:Literal x:TypeArguments="NWaitForReady" Value="Interactive" />
+        </p:InArgument>
+      </TargetAnchorable.WaitForReadyArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="e7bf0920c2e5dbec033769eba6936fd9.png" xmlns="">0-WbRKO34Yke_i9xt-6PxUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cCPmgVHmXES3UxyYt-DOIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="6b978c4e-6bd0-4d21-975b-a92c72200741" CvElementArea="168, 669, 19, 18" CvType="CheckBox" DesignTimeRectangle="170, 670, 15, 15" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='checkmark' idx='3' parentid='collapseТype' tag='SPAN' /&gt;" Guid="63e15604-fcaa-4b65-9205-10339b87f80e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for beyonce (28)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6b978c4e-6bd0-4d21-975b-a92c72200741" CvTextArea="190, 671, 40, 13" CvTextArgument="CD (8)" CvType="Text" DesignTimeRectangle="192, 668, 38, 20" FuzzySelectorArgument="&lt;webctrl aaname='CD ' parentid='collapseТype' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='CD (8)' /&gt;" Guid="88453222-b98b-4319-ad03-1ac2d4c4fbd5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32c4f518fc0b6597920738718caee79e.png" xmlns="">0xVAY_Jyrg0-IU_v5ptnUaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

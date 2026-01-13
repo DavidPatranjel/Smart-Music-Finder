@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vq46AmLyQEu0YDsdBst5aA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="muziker.ro/en/search" CVScreenId="9e17d920-e122-4680-801f-86ede3e5f1cd" CvTextArea="167, 787, 35, 16" CvTextArgument="Type" CvType="Text" DesignTimeRectangle="170, 788, 32, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Тype ' parentid='main-filter' tag='SPAN' /&gt;" Guid="1b801d5b-ad80-4e25-94bd-4cb6a35ca415" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Results for contry (10000)' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="2" Y="3" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="065fd600003b055124a57fef21bcaa4a.png" xmlns="">0tD-W4R1zWU-EEnQ4LbP8lA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
